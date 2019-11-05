@@ -1,0 +1,45 @@
+name: ConspiracyCore
+main: org.jacob.spigot.plugins.AnarchyCore.Main
+version: 1.0
+api-version: "1.13"
+commands:
+  suicide:
+    usage: /<command>
+  kill:
+    usage: /<command>
+  help:
+    usage: /<command>
+  anarchyreload:
+    usage: /<command>
+  mutechat:
+    usage: /<command>
+  location:
+    usage: /<command>
+  worldsize:
+    usage: /<command>
+  msg:
+    usage: /<command>
+  tp:
+    usage: /<command>
+  teleport:
+    usage: /<command>
+  tph:
+    usage: /<command>
+  tphere:
+    usage: /<command>
+  ignore:
+    usage: /<command>
+  gm:
+    usage: /<command>
+  gamemode:
+    usage: /<command>
+  firstjoin:
+    usage: /<command>
+  invsee:
+    usage: /<command>
+  password:
+    usage: /<command>
+  vanish:
+    usage: /<command>
+  v:
+    usage: /<command>
