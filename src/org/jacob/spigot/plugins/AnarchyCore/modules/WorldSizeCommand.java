@@ -1,11 +1,11 @@
 package org.jacob.spigot.plugins.AnarchyCore.modules;
 
-import net.md_5.bungee.api.ChatColor;
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import java.io.File;
-import org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FileUtils;
 
 public class WorldSizeCommand implements CommandExecutor {
 
@@ -13,7 +13,7 @@ public class WorldSizeCommand implements CommandExecutor {
     @Override
     public boolean onCommand(final CommandSender commandSender, final Command command, final String s, final String[] strings) {
 
-        if (s.equalsIgnoreCase("worldsize")) {
+        if (!s.equalsIgnoreCase("worldsize")) {
 
             long size = FileUtils.sizeOfDirectory(new File("/home/serv/world/"));
             double bytes = size;
